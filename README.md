@@ -42,20 +42,14 @@ This demo shows:
 
 ## 📲 Installation & Setup
 
-1. **Clone the repository**
-   ```bash
-   git clone [your-repository-url]
-   cd [your-repository-name]
-   ```
-
-2. **Firebase and Vertex AI Setup**
+1. **Firebase and Vertex AI Setup**
    - Follow the official Firebase documentation for iOS setup:
      [Firebase iOS Setup Guide](https://firebase.google.com/docs/ios/setup)
    - For Vertex AI setup and initialization:
      [Vertex AI Documentation](https://firebase.google.com/docs/ml)
    - Make sure to follow security best practices for API keys and credentials
 
-3. **Swift Package Manager**
+2. **Swift Package Manager**
    - In Xcode, go to File → Add Packages
    - Add `https://github.com/firebase/firebase-ios-sdk`
    - Select Firebase Core and Firebase Vertex AI dependencies
