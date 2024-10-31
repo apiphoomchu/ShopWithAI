@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C1A0B1E52CCD39E200C96ECC /* FirebaseVertexAI in Frameworks */ = {isa = PBXBuildFile; productRef = C1A0B1E42CCD39E200C96ECC /* FirebaseVertexAI */; };
+		C1DDE4962CD3DEAE0038ADC4 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = C1DDE4952CD3DEAE0038ADC4 /* FirebaseAppCheck */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1DDE4962CD3DEAE0038ADC4 /* FirebaseAppCheck in Frameworks */,
 				C1A0B1E52CCD39E200C96ECC /* FirebaseVertexAI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,6 +73,7 @@
 			name = ShopWithAI;
 			packageProductDependencies = (
 				C1A0B1E42CCD39E200C96ECC /* FirebaseVertexAI */,
+				C1DDE4952CD3DEAE0038ADC4 /* FirebaseAppCheck */,
 			);
 			productName = ShopWithAI;
 			productReference = C1A0B1B72CCD23BB00C96ECC /* ShopWithAI.app */;
@@ -350,6 +353,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = C1A0B1E32CCD39A900C96ECC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseVertexAI;
+		};
+		C1DDE4952CD3DEAE0038ADC4 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1A0B1E32CCD39A900C96ECC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
